@@ -1,76 +1,94 @@
-## Tweaky Tool
----
+# Tweaky Tool API Documentation
+
 ## Table of Contents
+- [authenticate](#authenticate)
+- [version](#version)
+- [today](#today)
+- [license-remaining](#license-remaining)
+- [products](#products)
+- [product-config](#product-config)
+- [install-software](#install-software)
+- [uninstall-software](#uninstall-software)
+- [renew-now](#renew-now)
 
-1. [Authentication](#authentication)
-2. [Version](#version)
-3. [Today](#today)
-4. [License Remaining](#license-remaining)
-5. [Products](#products)
-   - [Products](#products)
-   - [Product Config](#product-config)
-6. [Software Management](#software-management)
-   - [Install Software](#install-software)
-   - [Uninstall Software](#uninstall-software)
-   - [Renew Now](#renew-now)
+## authenticate
 
----
+### Description
+Authenticates the user.
 
-## Authentication
-
-### Authenticate
-
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/authenticate](https://www.tweakytools.com/api/authenticate)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 
-## Version
+### Response
+- No response defined
 
-### Version
+## version
 
+### Description
+Gets the version information.
+
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/version](https://www.tweakytools.com/api/version)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 
-## Today
+### Response
+- No response defined
 
-### Today
+## today
 
+### Description
+Gets information about today.
+
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/today](https://www.tweakytools.com/api/today)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 
-## License Remaining
+### Response
+- No response defined
 
-### License Remaining
+## license-remaining
 
+### Description
+Gets information about the remaining license.
+
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/license-remaining](https://www.tweakytools.com/api/license-remaining)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 
-## Products
+### Response
+- No response defined
 
-### Products
+## products
 
+### Description
+Gets information about products.
+
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/products](https://www.tweakytools.com/api/products)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 
-### Product Config
+### Response
+- No response defined
 
+## product-config
+
+### Description
+Gets configuration information about a product.
+
+### Request
 - **Method:** GET
 - **URL:** [https://www.tweakytools.com/api/product-config?id=1](https://www.tweakytools.com/api/product-config?id=1)
-- **Authorization Type:** API Key
 - **Headers:**
   - Authorization: 4903927f9a5d0fa8b4d817db1acae454
 - **Body:**
